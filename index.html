@@ -1,28 +1,106 @@
-<html>
-<h1> Info About Ben!</h1>
-  <p>
-    My name is Ben Noel. I am 21 years old. I have lived in Brooklyn NY all my life. I wish 
-    my mentors were bill gates or jeff bezos. I am about  graduate with my BS in computer science.
-    I enjoy computer science because I like to be creative. My goals is to be an entrepneur and be my own boss.
-    I want to pay myself and have freedom.I also have a few interest and hobbies
-    that you can find below
-  </p>
-     <h2>Hobbies/Interest</h2>
-     <ul>
-        <li>Playing Football</li>
-        <li>Playing Video Games</li>
-        <li>Working Out</li>
-        <li>Trading</li>
+<!DOCTYPE html>
+<html >
 
-     </ul>
-        <h3>Top Sports</h3>
-        <ol>
-            <li>Football</li>
-            <li>Boxing</li>
-            <li>Basketball</li>
-            <li>Soccer</li>
+   <head>
+      <style>
+         .centered{
+            text-align: center;
+         }
+         html{
+            background-color: #e9bcb7;
+            background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+         }
+         .solid{
+            border-style: solid;
+            border-width: 2px;
+            width: 300px;
+            margin: 10px;  
+            border-color: white;
+            
+         }  
+         h1{
+            font-size: 40px;
+            color: white;
+         } 
+         h2 {
+            text-decoration: underline;
+         }
+         h3 {
+            text-decoration: underline;
+            
+         }
+         .a{
+            display: flex;
+         }
+         .cars{
+            display: flex;
+            flex-grow: 3;
+            flex-direction: row;
+            color: salmon;
+            font-size: 40px;
+         }
+         h4{
+            color: salmon;
+            font-size:40px;
+            font-style:italic;;
+         }
+         
+      </style>
 
-        </ol>
+   </head>
+   <div class="centered">
+      <h1> Info About Ben!</h1>
+      <p>
+         My name is Ben Noel. I am 21 years old. I have lived in Brooklyn NY all my life. I wish 
+         my mentors were bill gates or jeff bezos. I am about  graduate with my BS in computer science.
+         I enjoy computer science because I like to be creative. My goals is to be an entrepneur and be my own boss.
+         I want to pay myself and have freedom.I also have a few interest and hobbies
+         that you can find below
+      </p>  
+   </div>
 
+   <div class="a">
+      <div class="solid">
+         <h2>Hobbies/Interest</h2>
+         <ul>
+            <li>Playing Football</li>
+            <li>Playing Video Games</li>
+            <li>Working Out</li>
+            <li>Trading</li>
+         </ul>
+      </div>
 
+   
+      <div class="solid">
+     
+         <h3>Top Sports</h3>
+            <ol>
+               <li>Football</li>
+               <li>Boxing</li>
+               <li>Basketball</li>
+               <li>Soccer</li>
+
+            </ol>
+      </div>
+   </div>
+
+   <h4 class="centered"> My Favorite cars</h4>
+   <div class="cars">    
+      <figure> 
+         <img src="https://static.tcimg.net/vehicles/primary/dd905783724f2cd3/2020-Rolls-Royce-Phantom-white-full_color-driver_side_front_quarter.png" width="300">
+         <figcaption> <b>Rolls Royce</b> </figcaption>
+      </figure>
+
+      <figure>
+         <img src="https://www.motortrend.com/uploads/bg-index/2020-bentley-continental-convertible.png?fit=around%7C875:492.1875" width="300">
+         <figcaption> <b> Bentley</b> </figcaption>
+      </figure>
+
+      <figure>
+         <img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/families-gallery/mobile/Aventador_ultimae_model_mobile.png" width="300">
+         <figcaption> <b> Lamborghini</b> </figcaption>
+      </figure>
+   </div>   
+
+   
 </html>
